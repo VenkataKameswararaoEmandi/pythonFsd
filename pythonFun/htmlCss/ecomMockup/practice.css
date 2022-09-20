@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.icon-1 {
+    height: 3vh;
+    width: 3vh;
+}
+
+.web-header {
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.search-bar {
+    height: 6vh;
+    width: 25vw;
+    margin: 0 6vw 0 6vw;
+    background-color: gray;
+    border-radius: 2vh;
+}
+
+.search-bar-text {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 0 4vh;
+}
+
+.horizontal-align {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+}
+
+.title-text {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 0 2vh;
+    font-size: 3vh;
+}

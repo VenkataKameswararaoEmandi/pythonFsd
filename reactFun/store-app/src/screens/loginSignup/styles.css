@@ -1,0 +1,64 @@
+@import url("../../index.css");
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  height: 40vh;
+  width: 40vw;
+  border: 2px solid #80808044;
+  box-shadow: 1vh 1vh 2vh #80808022;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 2fr;
+  border-radius: 1vh;
+}
+
+.inputbox-1 {
+  height: 5vh;
+  width: 60%;
+  grid-column: 1 / span 2;
+  margin: auto;
+  border-radius: 1vh;
+}
+
+.inputbox-2 {
+  height: 5vh;
+  width: 60%;
+  grid-column: 1 / span 2;
+  margin: auto;
+  border-radius: 1vh;
+}
+
+.button-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+  width: 40%;
+  border-radius: 1vh;
+  background-color: rgb(120, 120, 181);
+  color: white;
+  margin: auto;
+  cursor: pointer;
+}
+
+.button-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+  width: 40%;
+  border-radius: 1vh;
+  background-color: rgb(47, 47, 95);
+  color: white;
+  margin: auto;
+  cursor: pointer;
+}

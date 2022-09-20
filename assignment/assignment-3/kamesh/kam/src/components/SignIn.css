@@ -1,0 +1,28 @@
+.form{
+margin: auto;
+    box-sizing: border-box;
+    width: 360px;
+    height: 330px;
+    border: 1px solid black;
+    background-color: lightcoral;
+}
+.input{
+    margin-top: 20px;
+   margin-bottom: 10px;
+   width: 70%;
+   border: none;
+   outline: none;
+   /* border-radius: 10px; */
+}
+.btn:hover{
+    
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+::placeholder{
+    padding-left: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

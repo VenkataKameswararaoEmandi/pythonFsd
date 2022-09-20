@@ -1,0 +1,41 @@
+.heading1 {
+    font-size: 5vh;
+    color:blueviolet;
+}
+
+.name {
+  width:40vw;
+  box-shadow: 15px 15px 10px ;
+  border-radius: 5vh;
+  text-align: middle;
+  background-color: greenyellow;
+  font-size: 4vh;
+  font-family: "Ole0 Script Swash Caps", cursive;
+  border: 3px solid #ff00ff;
+
+}
+
+.normal-text {
+  width: fit-content;
+  font-family: "Ole0 Script Swash Caps", cursive;
+  font-size: 4vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.red-box {
+  height: 7vh;
+  width: 7vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

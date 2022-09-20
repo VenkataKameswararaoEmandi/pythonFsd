@@ -1,0 +1,63 @@
+.container {
+    height: 50vh;
+    width: 30vw;
+    background-color: white;
+    border-radius: 2vh;
+    margin: 5vh auto 5vh auto;
+    box-shadow: 0 0 10px white;
+  }
+  
+  .form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin: 1vw;
+    padding: 1vw;
+  }
+  
+  .from-field {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    font-weight: 500;
+    margin-bottom: 1vh;
+  }
+  .label1 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: darkblue;
+    font-size: 2.3vw;
+    font-weight: 500;
+    margin-bottom: 1vh;
+    margin-left: 3.8vh;
+  }
+  
+  .input-box-text {
+    font-family:Arial, Helvetica, sans-serif;
+    height: 3.5vh;
+    width: 40vh;
+    border-radius: 1vh;
+    padding: 0.5vh 1.5vh;
+    border: 0.2vh solid skyblue;
+  }
+  
+  .input-box-text:focus {
+    outline: none;
+  }
+  
+  .input-box-text1 {
+    height: 5.5vh;
+    width: 43vh;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: yellowgreen;
+    font-size: 3vh;
+    border-radius: 0.8vh;
+    margin-top: 3vh;
+    margin-left: 0.3vh;
+    color: rgb(255, 255, 255);
+    border: 0.3vh solid #43bcbc;
+    cursor: pointer;
+  }
